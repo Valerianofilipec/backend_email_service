@@ -1,0 +1,24 @@
+{
+    "name": "backend_email_service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest --passWithNoTests"
+    },
+    "author": "Valeriano Filipe",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1496.0",
+        "bull": "^4.11.5",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.1"
+    }
+}
